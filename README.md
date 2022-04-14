@@ -1,2 +1,2 @@
-# stac-fastapi-demo
-A project to demonstrate creating a nosql backend for stac-fastapi.
+# stac-api-robyn
+A project to demonstrate using Robyn to create a STAC compliant api.
