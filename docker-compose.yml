@@ -23,7 +23,7 @@ services:
     depends_on:
       - mongo_db
     command:
-      bash -c "./scripts/wait-for-it.sh mongo_db:27017 && python -m stac_api_robyn.stac_api_robyn.app"
+      bash -c "./scripts/wait-for-it.sh mongo_db:27017 && python -m stac_api_robyn.app"
 
   mongo_db:
     image: mongo:5.0

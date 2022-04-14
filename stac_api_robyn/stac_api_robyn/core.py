@@ -7,7 +7,7 @@ from datetime import datetime
 from pydantic import ValidationError
 from stac_fastapi.types.search import BaseSearchPostRequest
 
-from stac_fastapi.demo.config import MongoSettings
+from stac_api_robyn.config import MongoSettings
 from fastapi import HTTPException
 from stac_fastapi.types.core import BaseCoreClient
 from stac_fastapi.types.stac import Collection, Collections, Item, ItemCollection

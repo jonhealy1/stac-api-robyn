@@ -6,10 +6,10 @@ from datetime import datetime
 import attr
 from stac_pydantic.shared import DATETIME_RFC339
 
-from stac_fastapi.demo.config import MongoSettings
+from stac_api_robyn.config import MongoSettings
 from stac_fastapi.types import stac as stac_types
 from stac_fastapi.types.core import BaseTransactionsClient
-from stac_fastapi.demo.types.error_checks import ErrorChecks
+from stac_api_robyn.types.error_checks import ErrorChecks
 
 logger = logging.getLogger(__name__)
 
